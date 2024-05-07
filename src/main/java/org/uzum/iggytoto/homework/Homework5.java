@@ -11,7 +11,7 @@ public class Homework5 {
         System.out.println("Cat's age: " + cat.getAge());
     }
 
-    private static Cat createCat() throws NoSuchFieldException, IllegalAccessException {
+    public static Cat createCat() throws NoSuchFieldException, IllegalAccessException {
         Cat cat = new Cat(0);
 
 
